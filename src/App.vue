@@ -25,20 +25,12 @@
         <div class="col-12 col-sm-12 col-md-10 col-lg-10 col-xl-10">
           <div class="ds-banner">
             <h1 class="ds-main-heading">Want to know more about me?</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique laborum consectetur in velit fugiat.
-              Voluptatibus id, temporibus ab vitae repellendus ducimus minus esse suscipit ex architecto autem, porro
-              consectetur ipsam!</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur cumque odit soluta obcaecati
-              necessitatibus minima fuga amet sit aperiam aut rem, aliquid officiis cum. Mollitia hic consequatur a
-              expedita velit?</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et tenetur quis expedita consectetur sunt aut,
-              ipsum asperiores, repellendus, sint quidem amet vel saepe facere voluptates neque delectus voluptas dolor
-              odit?</p>
-            <RouterLink to="/keahlian"><a href="#" class="ds-buttan">Keahlian Saya <i
-                  class="ri-arrow-right-line"></i></a></RouterLink>
-            <RouterLink to="/keahlian"><a href="#" class="ds-buttan">Keahlian Saya <i
-                  class="ri-arrow-right-line"></i></a></RouterLink>
-            <p><strong>Lorem ipsum dolor sit amet consectetur.</strong></p>
+            <p>Professional experience</p>
+            <p>Has been involved in the project development of the Sarpras application for the Taruna Bhakti Vocational High School Depok, Development of eCommerce applications & Fullstack Developer</p>
+            <p>A side project that I made</p>
+            <p>making video games characters using blender3d & making video games using godot engine</p>
+            <RouterLink to="/"><a href="#" class="ds-buttan">About Me</a></RouterLink>
+            <p><strong>click to see my personal data</strong></p>
           </div>
         </div>
         <figure><img src="@/assets/images/e-book.jpg" width="" height="" alt="banner-image"></figure>
@@ -47,46 +39,69 @@
   </div>
   <!-- banner -->
 
-  <RouterView />
-
   <!-- book -->
   <div class="ds-book-section">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-12 col-sm-12 col-md-10 col-lg-10 col-xl-10">
-          <!-- ds-bool-listing-section -->
-          <div class="ds-book-listing-section">
-            <div class="ds-book-list">
-              <div class="row">
-                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 ds-book-list-img">
-                  <figure><img src="@/assets/images/e-book-feature2.jpg" width="" height="" alt=""></figure>
-                </div>
-                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 ds-book-list-content">
-                  <p>Transform your career and company, with this free book by Apple and Electronic Arts designBring a
-                    business mind to design, and transform your career and company, with this free book by Apple and
-                    Electronic Arts design Transform your career and company, with this free book by Apple and
-                    Electronic Arts designBring a business mind to design, and transform your career acompany, with this
-                    free book by Apple and Electronic Arts designBring a business mind to design.</p>
+          <!-- ds-book-content -->
+          <div class="ds-book-content">
+            <div class="row">
+              <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <h2 class="ds-sub-heading">Experience</h2>
+                <p>has experience developing many websites from landing pages to websites that are equipped with payments and much more</p>
+                <RouterLink to="/porto"><a href="#" class="ds-buttan mt-4">Porto</a></RouterLink>
+              </div>
+              <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                <ul>
+                  <li>
+                    <span>01</span>Making a product website using Html, CSS and Bootstrap
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 90%"
+                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                      </div>
+                    </div>
 
-                  <p>Bring a business mind to design, and transform your career and company, with this free book by
-                    Apple and Electronic Arts design Bring a business mind to design</p>
-                </div>
+                  </li>
+                  <li>
+                    <span>02</span>Making a website display design using CSS, JS and Bootstrap
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 80%"
+                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                      </div>
+                    </div>
+
+                  </li>
+                  <li>
+                    <span>03</span>Creating an agenda table and relations using Laravel
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" aria-label="Basic example" style="width: 90%"
+                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                      </div>
+                    </div>
+
+                  </li>
+                </ul>
               </div>
             </div>
           </div>
-          <!-- ds-bool-listing-section -->
+          <!-- ds-book-content -->
         </div>
       </div>
     </div>
   </div>
   <!-- book -->
 
+  <!-- book -->
+  <RouterView />
+  <!-- book -->
+
   <!-- book-add -->
   <div class="ds-book-add-section">
     <div class="container">
-      <span>Lorem ipsum dolor sit amet consectetur.</span>
+      <span>get to know me better</span>
       <h2>click to see more about my portfolio</h2>
-      <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis repellendus porro recusandae similique quibusdam, voluptatum unde, molestias aliquid ipsa facilis quidem tenetur eveniet blanditiis magnam enim corrupti repudiandae cumque commodi! Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima eius nostrum quibusdam labore voluptatem, cum, blanditiis nulla nobis provident cumque quas amet fugit corrupti earum odit enim odio? Dolores, pariatur.</p>
+      <p class="mb-5">I usually publish my projects on Instagram and GitHub for everyone to see. maybe I will develop a new project such as a website about a product, an e-commerce website, create a video game character and much more. to see it can check on my instagram and github</p>
       <a href="https://www.instagram.com/ehhanggaa/" class="ds-buttan">Instagram</a>
       <footer class="ds-footer">
         <Footer />
